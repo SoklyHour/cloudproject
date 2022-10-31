@@ -1,0 +1,152 @@
+h1{
+  display: inline-block;
+  width: 300px;
+  padding: 40px 50px 50px 50px;
+  font-size: 25px;
+  max-height: 200px;
+}
+
+nav{
+  display: inline-block;
+  float: right;
+  padding-top: 35px;
+  padding-right: 50px;
+  max-height: 200px;
+}
+
+nav a{
+  padding: 0px 20px 50px 0px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.sheet1{
+  background-image: url("images/nyc.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 700px;
+}
+
+.sheet2{
+   width: 100%;
+   height: 500px;
+}
+
+.sheet3{
+  background-color: #f6f6f6;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 500px;
+}
+
+.sheet4{
+   width: 100%;
+   height: 400px;
+}
+
+#s2left{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+#s2left img{
+  height: 500px;
+}
+
+#s2right{
+  width: 50%;
+  float: right;
+}
+
+#s2right h3{
+  margin: 80px 0 20px 0;
+  font-size: 30px;
+}
+
+#s2right p{
+  margin: 0px 0px 20px 0;
+  width: 60%;
+  font-size: 20px;
+}
+
+.sheet3 h3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sheet4 h3{
+  text-align: center;
+  font-size: 30px;
+  margin: 80px 0 20px 0;
+}
+
+.sheet4 p{
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+#s3left{
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+#s3middle{
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+#s3right{
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+
+#s3left img , #s3middle img , #s3right img {
+  height: 250px;
+}
+
+#s3left img, #s3left p{
+  margin-left: 150px;
+}
+
+#s3right img, #s3right p{
+  margin-right: 150px;
+}
+
+footer{
+  height: 100px;
+}
+
+footer p{
+  padding: 40px 40px 40px 40px;
+}
+
+.welcome{
+  display: block;
+  width: 100px;
+  margin-left: 55%;
+  margin-top: 10em;
+  text-align: right;
+}
+
+.welcome h3{
+  font-size: 30px;
+  text-align: right;
+}
+
+.welcome h2{
+  font-size: 50px;
+  margin-top: 10px;
+}
